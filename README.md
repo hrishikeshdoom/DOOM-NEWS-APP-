@@ -1,4 +1,4 @@
-# ☠ DOOM NEWS — GLOBAL THREAT INTELLIGENCE SYSTEM
+# ☠ DOOM — GLOBAL THREAT INTELLIGENCE SYSTEM
 
 > A military-grade desktop news aggregator with real-time global threat mapping.
 
@@ -30,21 +30,21 @@
 2. Double-click `BUILD_WINDOWS.bat`
 3. Wait ~3-5 minutes for build
 4. Find your files in the `dist/` folder:
-   - `DOOM NEWS Setup 1.0.0.exe` — Installer
-   - `DOOM NEWS 1.0.0.exe` — Portable (no install needed)
+   - `DOOM Setup 1.0.0.exe` — Installer
+   - `DOOM 1.0.0.exe` — Portable (no install needed)
 
 ### macOS (.dmg)
 ```bash
 chmod +x build.sh
 ./build.sh
-# Output: dist/DOOM NEWS-1.0.0.dmg
+# Output: dist/DOOM-1.0.0.dmg
 ```
 
 ### Linux (.AppImage)
 ```bash
 chmod +x build.sh
 ./build.sh
-# Output: dist/DOOM NEWS-1.0.0.AppImage
+# Output: dist/DOOM-1.0.0.AppImage
 chmod +x dist/*.AppImage
 ./dist/*.AppImage
 ```
@@ -95,7 +95,7 @@ npm start
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ☠ DOOM NEWS          ◈ GLOBAL THREAT INTELLIGENCE ◈    UTC CLOCK│
+│  ☠ DOOM          ◈ GLOBAL THREAT INTELLIGENCE ◈    UTC CLOCK│
 ├──────────────┬──────────────────────────────────┬───────────────┤
 │ INTEL FEED   │                                  │ INTEL         │
 │              │      TACTICAL WORLD MAP          │ BRIEFING      │
@@ -110,10 +110,5 @@ npm start
 ```
 
 ---
-## 🤖 AI ASSISTANCE
 
-- This project was organized, structured, and developed with the assistance of artificial intelligence.
-- AI was used to help design system architecture, generate code components, and streamline development, while maintaining full human direction and control over functionality and design.
-- Most of the fundemental code was made by me, the repetitive and time consuming things were taken care of by AI.
-
-*DOOM NEWS is for informational purposes only. Data sourced from public RSS feeds.*
+*DOOM is for informational purposes only. Data sourced from public RSS feeds.*

@@ -1,0 +1,44 @@
+{
+  "name": "doom",
+  "version": "1.0.0",
+  "description": "DOOM — Global Threat Intelligence System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.doomnews.app",
+    "productName": "DOOM",
+    "directories": { "output": "dist" },
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "DOOM"
+    },
+    "mac": {
+      "category": "public.app-category.news",
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "News"
+    },
+    "files": ["index.html", "main.js", "icon.*", "package.json"]
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
