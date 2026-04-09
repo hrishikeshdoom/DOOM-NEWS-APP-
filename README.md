@@ -110,5 +110,10 @@ npm start
 ```
 
 ---
+## 🤖 AI ASSISTANCE
+
+- This project was organized, structured, and developed with the assistance of artificial intelligence.
+- AI was used to help design system architecture, generate code components, and streamline development, while maintaining full human direction and control over functionality and design.
+- Most of the fundemental code was made by me, the repetitive and time consuming things were taken care of by AI.
 
 *DOOM NEWS is for informational purposes only. Data sourced from public RSS feeds.*
